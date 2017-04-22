@@ -85,6 +85,10 @@ body {
     font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 }
 
+a {
+    text-decoration-line: underline; 
+}
+
 a,
 a:hover,
 a:visited,
