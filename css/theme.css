@@ -1614,6 +1614,10 @@ label.error {
     cursor: pointer;
 }
 
+.logo-header {
+    margin: 20px;
+}
+
 .nav-justified>li>a {
     margin-bottom: 0;
 }
