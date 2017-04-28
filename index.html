@@ -15,8 +15,9 @@
 
     <!-- Styles -->
     <link rel="stylesheet" href="css/theme.css">
-
+    <link rel="stylesheet" href="bower_components/carousel-3d/dist/styles/jquery.carousel-3d.default.css" />
 </head>
+
 <body data-spy="scroll" data-target=".navbar">
 
 
@@ -56,7 +57,7 @@
                         <li><a class="underline" href="#home">Home</a></li>
                         <li><a class="underline" href="#about">About</a></li>
                         <li><a class="underline" href="#lessons">Lessons</a></li>
-                        <li><a class="underline" href="#students">My Students</a></li>
+                        <li><a class="underline" href="#students">Students</a></li>
                         <li><a class="underline" href="#testimonials">Testimonials</a></li>
                         <li><a class="underline" href="#contact">Contact</a></li>
                     </ul>
@@ -77,7 +78,7 @@
 
     <!-- SECTION: About -->
     <section id="about" class="section">
-        <div class="container">
+    <div class="container-fluid">
 
             <!-- Section header -->
             <div class="row">
@@ -127,26 +128,26 @@
                             <p class="text-muted">Vita is married to <a href="http://www.billbachman.net" target="_blank">Bill Bachman</a>, a world-renowned percussion instructor, and they have three young children.</p>
                             <img class="img-responsive img-space" src="images/instructor-gymnast-wm.jpg" />
                             <div class="row">
-                               <div class="col-md-6">
-                               </div>
-                               <div class="col-md-6">
-                               </div>
-                           </div>
-                       </div>
-                   </div>
-                   <div class="row">
-                   </div>
-               </div><!-- /Right column -->
+                             <div class="col-md-6">
+                             </div>
+                             <div class="col-md-6">
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+                 <div class="row">
+                 </div>
+             </div><!-- /Right column -->
 
-           </div><!-- /Section content -->
+         </div><!-- /Section content -->
 
 
-       </div>
-   </section><!-- END OF SECTION: About -->
+     </div>
+ </section><!-- END OF SECTION: About -->
 
-   <!-- SECTION: Lessons -->
-   <section id="lessons" class="section">
-    <div class="container">
+ <!-- SECTION: Lessons -->
+ <section id="lessons" class="section">
+    <div class="container-fluid">
 
         <!-- Section header -->
         <div class="row">
@@ -167,9 +168,9 @@
                     <div class="col-md-12">
                         <p class="text-muted">
                             Vita works with students of all levels, from beginner to professional dancers, to gymnasts, performers and other athletes. Most of her classes and private lessons combine carefully selected exercises for proper warm-up, flexibility and strength development. Vita believes in a ballet-based technique enriched with rhythmic gymnastics training, proper body alignment, and a consistent, gradual, individual approach. Vita often says, “Flexibility without strength can be dangerous.” Student’s safely and the longevity of their careers are of most importance. 
-                            </p>
-                            <p class="text-muted">
-Vita is passionate about giving her very young students a solid foundation to build upon which opens doors for many various sports and activities requiring flexibility, coordination, technique and strength. 
+                        </p>
+                        <p class="text-muted">
+                            Vita is passionate about giving her very young students a solid foundation to build upon which opens doors for many various sports and activities requiring flexibility, coordination, technique and strength. 
                         </p>
                     </div>
                 </div>                
@@ -189,7 +190,7 @@ Vita is passionate about giving her very young students a solid foundation to bu
 
                 <div class="row">
                     <div class="col-md-12">
-                    <img class="img-responsive img-space" src="images/lessons/lessons-collage-2.jpg" />
+                        <img class="img-responsive img-space" src="images/lessons/lessons-collage-2.jpg" />
                     </div>
                 </div>                
             </div><!-- /Left column -->
@@ -206,7 +207,7 @@ Vita is passionate about giving her very young students a solid foundation to bu
 
 <!-- SECTION: Students -->
 <section id="students" class="section">
-    <div class="container">
+    <div class="container-fluid">
 
         <!-- Section header -->
         <div class="row">
@@ -230,6 +231,24 @@ Vita is passionate about giving her very young students a solid foundation to bu
 
             <!-- Right column -->
             <div class="col-md-10">
+
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <div id="wrapper">
+                            <div id="carousel" data-carousel-3d>
+                                <img src="images/students/chloe-wm.jpg" />
+                                <img src="images/students/chloe-wm-2.jpg" selected />
+                                <img src="images/students/katya-wm.jpg" />
+                                <img src="./images/students/sarah-wm.jpg" />
+                                <img src="./images/students/sarah-wm-2.jpg" />
+                                <img src="./images/students/sarah-wm-5.jpg" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
                 <div class="row">
                     <div class="col-md-6">
                         <img class="img-responsive img-space" src="images/students/chloe-wm.jpg" alt="Gymnast">
@@ -312,7 +331,7 @@ Vita is passionate about giving her very young students a solid foundation to bu
 
 <!-- SECTION: Testimonials -->
 <section id="testimonials" class="section">
-    <div class="container">
+    <div class="container-fluid">
 
         <!-- Section header -->
         <div class="row">
@@ -453,7 +472,7 @@ Vita is passionate about giving her very young students a solid foundation to bu
 
 <!-- SECTION: Contact -->
 <section id="contact" class="section">
-    <div class="container">
+    <div class="container-fluid">
 
         <!-- Section header -->
         <div class="row">
@@ -529,7 +548,7 @@ Vita is passionate about giving her very young students a solid foundation to bu
 
 <!-- FOOTER -->
 <footer class="footer">
-    <div class="container">
+    <div class="container-fluid">
         <div class="row">
 
             <!-- Footer links and copyright -->
@@ -627,6 +646,10 @@ Vita is passionate about giving her very young students a solid foundation to bu
     <script src="js/jquery.magnific-popup.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/jquery.validate.min.js"></script>
+    <script src="bower_components/javascript-detect-element-resize/jquery.resize.js"></script>
+    <script src="bower_components/waitForImages/dist/jquery.waitforimages.js"></script>
+    <script src="bower_components/modernizr/modernizr.js"></script>
+    <script src="bower_components/carousel-3d/dist/jquery.carousel-3d.js" ></script>
     <script src="js/general.js"></script>
     <!-- END OF SCRIPTS -->
 

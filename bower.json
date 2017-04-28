@@ -1,0 +1,24 @@
+{
+  "name": "stretchingbeyondlimits",
+  "homepage": "https://github.com/nysmoon/vita",
+  "authors": [
+    "Natasha Sukhinina <natashas@openkey.io>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "waitForImages": "^2.2.0",
+    "modernizr": "^2.8.0",
+    "javascript-detect-element-resize": "^0.5.3",
+    "carousel-3d": "^0.2.3"
+  }
+}
