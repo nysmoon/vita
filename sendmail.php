@@ -46,6 +46,11 @@ $text = "
 ";
 
 $result = mail($to, $subject, $text, $from);
+if(!$mail->Send()) {
+  echo "Mailer Error: " . $mail->ErrorInfo;
+} else {
+  echo "Message sent!";
+}
 
 // End Buffering
 ob_end_clean();
