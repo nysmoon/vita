@@ -8,9 +8,10 @@ error_reporting(0);
 ob_start();
 
 // recipient
+$from = 'support@stretchingbeyondlimits.com';
 $to = 'nysmoon@gmail.com';
 // message subject
-$subject = 'Hello!';
+$subject = 'Email from stretchingbeyondlimits.com';
 
 // Getting form values from _REQUEST
 $name    = !empty($_REQUEST['name'])    ? $_REQUEST['name']    : '-';
@@ -44,7 +45,7 @@ $text = "
 </body>
 ";
 
-$result = mail($to, $subject, $text);
+$result = mail($to, $subject, $text, $from);
 
 // End Buffering
 ob_end_clean();
