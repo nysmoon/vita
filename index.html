@@ -16,6 +16,9 @@
     <!-- Styles -->
     <link rel="stylesheet" href="css/theme.css">
     <link rel="stylesheet" href="bower_components/carousel-3d/dist/styles/jquery.carousel-3d.default.css" />
+
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+
 </head>
 
 <body data-spy="scroll" data-target=".navbar">
@@ -481,6 +484,12 @@
                                 <textarea name="message" class="form-control" placeholder="Message... "></textarea>
                             </div>
                         </div>
+                        <div class="row column-mt">
+                            <div class="form-group col-md-12 underline">
+                                <div class="g-recaptcha" data-sitekey="6Lf94CAUAAAAABo_A5TlNWIQOlNrH7o3zcBw2FUm"></div>
+                            </div>
+                        </div>
+                        
                         <div class="row column-mt">
                             <div class="form-group col-md-12">
                                 <button type="submit" class="btn btn-colored">Send Message</button>
