@@ -20,28 +20,14 @@ $form    = !empty($_REQUEST['form'])    ? $_REQUEST['form']    : '-';
 
 // Forming Message
 $text = "
+Hello Vita!
 
-<body>
-    <h1>Message From Site example.com</h1>
-    <table>
-        <tr>
-            <td>Name: </td>
-            <td>$name</td>
-        </tr>
-        <tr>
-            <td>E-mail: </td>
-            <td>$email</td>
-        </tr>
-        <tr>
-            <td>Message: </td>
-            <td>$message</td>
-        </tr>
-        <tr>
-            <td>Form-name: </td>
-            <td>$form</td>
-        </tr>
-    </table>
-</body>
+You received a message from stretchingbeyondlimits.com.
+
+Sender: $name
+Senders email address: $email
+Message:
+$message
 ";
 
 $result = mail($to, $subject, $text);
