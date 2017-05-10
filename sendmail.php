@@ -1,4 +1,4 @@
   <?php
 
-  mail ('michaelgaraysi@yahoo.com','test','message corpus');
+  mail ('info@stretchingbeyondlimits.com','test','message corpus');
   ?>
