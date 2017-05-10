@@ -152,7 +152,7 @@ $(document).ready(function() {
                     data   : $(form).serialize(),
 
                     success: function() {
-                        $('.modal-result').html('Message sent successfully');
+                        $('.modal-result').html('Thank you for contacting us! Message sent successfully. We will get back to you shortly.');
                         $('.modal.in').modal('hide');
                         $('#result').modal('show');
 
@@ -161,7 +161,7 @@ $(document).ready(function() {
                     },
 
                     error: function(){
-                        $('.modal-result').html('Error sending message');
+                        $('.modal-result').html('Error sending message. Make sure you checked &#39;I am not a robot&#39; checkbox. <br />You can also send you message directly to <b>vitabachman@me.com</b>.');
                         $('.modal.in').modal('hide');
                         $('#result').modal('show');
 
