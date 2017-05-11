@@ -1598,13 +1598,6 @@ label.error {
         text-align: center !important;
     }
 
-    #home {
-        height: 65%;
-    }
-
-    #home .header-text {
-        margin-top: 50px 
-    }
 }
 
 /*--------------------------------------------------------------------------------------------------------------------
@@ -1632,4 +1625,10 @@ label.error {
 
 .modal-testimonial {
     width: 80%;
+}
+
+.social-top {
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
 }
