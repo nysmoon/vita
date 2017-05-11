@@ -1599,7 +1599,7 @@ label.error {
     }
 
     .social-top {
-        right: 85%;
+        right: 85% !important;
     }
 
 }
