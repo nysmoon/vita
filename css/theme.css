@@ -360,7 +360,7 @@ blockquote {
 
  .img-space {
     margin: 5px;
- }
+}
 
 /*
  * Icons
@@ -1596,6 +1596,10 @@ label.error {
 
     .blog-post-category {
         text-align: center !important;
+    }
+
+    .social-top {
+        right: 85%;
     }
 
 }
