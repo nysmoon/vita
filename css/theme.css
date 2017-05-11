@@ -1590,16 +1590,16 @@ label.error {
         overflow-y: scroll;
     }
 
+    .navbar-toggle {
+        float: left !important;
+    }
+
     .blog-post-share {
         text-align: center;
     }
 
     .blog-post-category {
         text-align: center !important;
-    }
-
-    .social-top {
-        right: 85% !important;
     }
 
 }
